@@ -5,3 +5,4 @@ __pycache__
 build/
 reports/
 scripts/walletInfo.json
+scripts/out.zip

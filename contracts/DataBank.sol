@@ -48,7 +48,7 @@ contract DataBank is Ownable {
             msg.value <= 5000000000000000000,
             "You can only pay less than 5 MATIC to submit a report"
         );
-        reportList.push(
+        reportList.push( // Push the new report to the list
             report(
                 _reportType,
                 msg.value,
@@ -61,7 +61,7 @@ contract DataBank is Ownable {
             )
         );
 
-        emit newReportSubmitted(reportList.length - 1);
+        emit newReportSubmitted(reportList.length - 1); // Emit the event
     }
 
     // Approves a report and releases tokens
