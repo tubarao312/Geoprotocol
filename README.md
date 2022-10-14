@@ -1,6 +1,8 @@
 # Geoprotocol
 O GeoProtocol é uma base de dados descentralizada que se alimenta a si própria e permite às cidades e aos seus habitantes contribuir e desfrutar de uma vasta rede de informação baseada em técnicas de Machine Learning e Blockchain.
 
+Bubble.io Link: https://github.com/tubarao312/Geoprotocol
+
 ### Como Usar
 Para fazer fetch da informação da blockchain, basta importar *scripts/interact.ipynb* e utilizar o seguinte código:
 
